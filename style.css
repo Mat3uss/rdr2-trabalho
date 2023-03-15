@@ -1,0 +1,91 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./img/750703.jpg);
+    background-size:  cover;
+    background-color: red;
+    width: 100vh;
+    
+}
+header{
+    margin-bottom: 150px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.title__text{
+    color:white;
+    width: auto;
+    font-family: 'Dancing Script', cursive;
+    margin-left: 40px;
+    margin-bottom: 100px;
+}
+.title{
+    display: flex;
+    grid-gap: 5px;
+}
+.description__text{
+    color: whitesmoke;
+    margin-left: 50px;
+    margin-right: 1px;
+    font-size: 12px;
+    position: absolute;
+    font-family: 'Dancing Script', cursive;
+    width: 300px;
+}
+.description__logo{
+    margin-left: 40px;
+    position: absolute;
+    text-align: center ;
+    width: 300px;
+    position: relative;
+
+}
+.redes__sociais{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;;
+    
+}
+.youtube{
+    margin-bottom: 10px;
+
+}
+.twitter{
+    margin-bottom: 10px;
+}
+.instagram{
+    margin-bottom: 10px;
+}
+.videos{
+    margin-bottom: auto;
+    display: flex;
+}
+.video__1{
+    margin-right: 50px;
+    width: 200px;
+}
+.video__2{
+    margin-right: 50px;
+    width: 200px;
+}
+.video__3{
+    margin-right: 50px;
+    width: 200px;
+}
+footer{
+    margin-left: 50px;
+    margin-top: 100%x;
+    display: flex;
+    justify-content: left;
+    align-items: end;
+}
